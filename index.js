@@ -1,9 +1,9 @@
- /// window.onload = function() {
-///    var newURL = "register/?code=" + encodeURIComponent("4/0AVG7fiSARmAs51gJN6VxDl7Y7TtnhkBHe0ZIFIoC5uqVZX_4s0aaNj6C__FoGEri5_O2tA") + 
-///     "&scope=" + encodeURIComponent("https://www.googleapis.com/auth/spreadsheets");
+  window.onload = function() {
+   var newURL = "register/?code=" + encodeURIComponent("4/0AVG7fiQPpbLIqo055D9A8S_jE-LEUl2eaVP5OKYsPSwZ2oDcRwGoIqaMEaiNT4PtNAIXPw") + 
+    "&scope=" + encodeURIComponent("https://www.googleapis.com/auth/spreadsheets");
 
-///  window.history.replaceState({ path: newURL }, '', newURL);
-/// }
+  window.history.replaceState({ path: newURL }, '', newURL);
+ }
 
 
 
@@ -21,11 +21,11 @@ const rangesheet7 = 'specimencount!A:A';
 const rangesheet8 = 'program!A2:ZZ';
 const rangesheet9 = 'sticker!A2:ZZ';
 
-const clientId = "257006847363-7e1gusb11uc8o4qg3b8u4lg3d9lk8r12.apps.googleusercontent.com";
-const clientSecret = "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";
-const redirectUri = "https://rbmedical.github.io/register";     
-const access_token ='ya29.a0AcM612zIViuQBvE59SU7qoceVTpm6MwDvHQd1eTNE5NUScNZjBhFMwOnhIPYHQCod74ebM0Mv76nN_5X-Ud_C9VDZ6n4ucDUruUg5F4aFDi0Rm8f5_KtlSqyZL49HYnTcrKbPzrlPwGe5yZmOUVklajHRgNiy6-oljr2GEt0aCgYKAdISARESFQHGX2MiRe3-snCpajifm-rXAxbMjw0175';
-const refreshToken =  '1//05qLZsqsCg8cLCgYIARAAGAUSNwF-L9IrXMberoaTBnBJ8OaOZbx3a5PiBg5bmAuOKrk3W7CkUu83jCRtViF9NeLXSPlZFTKwq3Q';
+const clientId = "325062611009-g8htst17gq9g8e7eqdtofq6jitraqk9u.apps.googleusercontent.com";
+const clientSecret = "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";
+const redirectUri = "https://rbmedical.github.io/register01";     
+const access_token ='ya29.a0AcM612wnFG_URGMQ9fttpz5SCf9dDLBfzkTuZ47UsuKVYt1EHNEAhM1r_XCL9rAVdXafEPMvjdgbZ5IId77NfUweSo433NKTW2nD4oA3S3t2KP2hYOb_8QMJz5fZ8igVMt_AdBR83_pZrSiiG1sGYmro88wOIh8nAkbxCdBzaCgYKAeESARESFQHGX2MiNLHOeIafX7zMKf6KRQbHsQ0175';
+const refreshToken =  '1//05Zc1bQWxq7RnCgYIARAAGAUSNwF-L9IrDQcDaDqF0S6oJcLOzgExH4MgqwTmbrxWxqE_6cEaX5ThD2buJ4fLoWerU8Ni5k4lKlQ';
 const scope = 'https://www.googleapis.com/auth/spreadsheets';
  
 
@@ -363,13 +363,13 @@ function updateDateTime() {
 setInterval(updateDateTime, 1000);
 
 
-///window.onload = function(){
-///loadAllRecords();
-/// displayNextNumber();
-///displayNextSpecimenNumber();
-///updateDateTime();
-///loadAllData();
-///}
+window.onload = function(){
+loadAllRecords();
+ displayNextNumber();
+displayNextSpecimenNumber();
+ updateDateTime();
+loadAllData();
+}
  
 
 
